@@ -31,6 +31,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# frontend mentro files
+/public/frontend-mentor-details
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
