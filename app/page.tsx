@@ -7,10 +7,8 @@ export default function Home() {
   return (
     <main className="flex flex-col w-full min-h-screen">
       <div className="">
-        <div className="w-full flex min-h-[50vh]">
-          <Slider/>
-        </div>
-        <div className="lg:grid md:grid-cols-2 lg:grid-cols-3 min-h-[50vh]">
+        <Slider/>
+        <div className="md:grid md:grid-cols-3 min-h-[50vh]">
           <div className="w-full h-full">
             <Image
               src={furniture}
